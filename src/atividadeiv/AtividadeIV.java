@@ -7,7 +7,7 @@ package atividadeiv;
 
 /**
  *
- * @author rafael
+ * @author luan
  */
 import gerente.gerente;
 import desenvolvedor.dev;
@@ -19,25 +19,25 @@ public class AtividadeIV {
         System.out.println(" Gerentes / Desenvolvedores");
         System.out.println("============================");
         
-        gerente dos = new gerente("juan", "000.000.000-00", 2000, 1548.7);
+        gerente dos = new gerente("Lucas", "000.000.000-00", 5000, 154564);
         dos.setBonificacaoGer(0.20);
         dos.imprimir();
         
         System.out.println("============================");
         
-        gerente Ger = new gerente("Pablo Escobar", "000.000.000-00", 2000000, 555.7);
+        gerente Ger = new gerente("Rafael", "000.000.000-00", 2000, 756757);
         Ger.setBonificacaoGer(0.20);
         Ger.imprimir();
         
         System.out.println("============================");
         
-        dev tre = new dev("newt scamander", "000.000.000-00", 2500);
+        dev tre = new dev("Robson", "000.000.000-00", 2500);
         tre.setBonificacaoDev(0.15);
         tre.imprimir();
         
         System.out.println("============================");
         
-        dev ti = new dev("Crescencio", "000.000.000-00", 4000);
+        dev ti = new dev("Carlos", "000.000.000-00", 5345345);
         ti.setBonificacaoDev(0.15);
         ti.imprimir();
         
