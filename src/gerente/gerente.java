@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 /**
  *
- * @author rafael
+ * @author luan
  */
 public class gerente extends funcionario{
     protected double CRM;
@@ -30,9 +30,7 @@ public class gerente extends funcionario{
         return Nsalario;
     }
     
-    /**
-     *0,20
-     */
+   
     @Override
     public void imprimir(){
         System.out.println("Nome: " + name);
