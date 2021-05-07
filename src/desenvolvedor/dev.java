@@ -9,7 +9,7 @@ import funcionario.funcionario;
 import java.util.Arrays;
 /**
  *
- * @author rafael
+ * @author luan
  */
 public class dev extends funcionario{
     public double Nsalario;
@@ -26,9 +26,7 @@ public class dev extends funcionario{
         return Nsalario;
     }
     
-    /**
-     * 0,15
-     */
+   
     @Override
     public void imprimir(){
         System.out.println("Nome: " + name);
