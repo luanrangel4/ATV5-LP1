@@ -7,7 +7,7 @@ package funcionario;
 
 /**
  *
- * @author rafael
+ * @author luan
  */
 public class funcionario {
     protected String name;
